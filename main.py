@@ -1,6 +1,6 @@
 import random
 
-
+# начало
 def create_random_ship():
     return random.randint(0, 5), random.randint(0, 5)
 # ghjdthrf 2
