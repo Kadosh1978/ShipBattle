@@ -53,7 +53,7 @@ def play_game():
 
         row = row - 1 # Reducing number to desired index.
         column = column - 1 # Reducing number to desired index.
-
+        # проверка попадания
         if game_board[row][column] == "-" or game_board[row][column] == "X":
             print("\nYou have already shoot that place!\n")
             continue
