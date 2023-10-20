@@ -1,9 +1,8 @@
 import random
 
-# начало
 def create_random_ship():
     return random.randint(0, 5), random.randint(0, 5)
-# ghjdthrf 2
+
 def play_again():
     try_again = input("Wanna play again? <Y>es or <N>o? >: ").lower()
     if try_again == "y":
